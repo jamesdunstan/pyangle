@@ -4,6 +4,15 @@ import numpy as np
 ## function 1 to calculate the square of a variable.
 # Inputs: a
 def square(a, b):
+    """Calculate square of 2 values
+    
+    Args:
+        a = opposite side of right angle triangle 
+        b = adjacent side of right angle triangle
+    
+    Returns:
+        float, float: the squared inputs
+        """
     a2 = a**2
     b2 = b**2
     return(a2, b2)
